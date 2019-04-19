@@ -1,0 +1,225 @@
+header{
+	 background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url('../img/header-bg.jpeg') center/cover fixed no-repeat;
+	 min-height: 100vh;
+}
+
+header .navbar{
+	background:rgba(0,0,0,0.5);
+	padding: 20px 0;
+	border-bottom: 5px solid #52b3d9;
+}
+header .navbar a{ 
+  color:#fff!important;
+  text-transform: uppercase;
+}
+
+header .navbar .navbar-brand{
+	 text-transform: uppercase;
+}
+
+.car-showcase{
+	 padding-top:250px;
+	 font-style: italic;
+}
+
+.car-showcase .card{
+	  background:rgba(107, 185, 240, .2);
+	  color:#fff;
+     padding:10px;
+}
+
+.car-showcase .card h3{
+	 text-transform: uppercase;
+	 font-size:25px;
+	 margin-bottom: 15px;
+	 font-size:23px;
+}
+
+.car-showcase .card input,.car-showcase .card select {
+	  padding:20px 0;
+	  border: none;
+	  background:#e8e8e8;
+}
+
+.car-showcase  h1{
+	 color:#52b3d9;
+	 text-transform: uppercase;
+	 margin-top:100px;
+	 margin-bottom: 10px;
+	 text-align:center;
+}
+
+.car-showcase  p{
+	 color:#fff;
+	 font-size:24px;
+	  text-align:center;
+}
+
+.car-about{
+	 padding: 40px 0;
+}
+
+.title{
+	 text-align:center;
+	 margin-bottom:40px;
+}
+ .title h2{
+	 font-size:30px;
+	 font-weight:500px;
+}
+.title .title-border{
+	 width:100px;
+	 border:2px solid #52b3d9;
+	 margin: 10px auto;
+}
+.title .title-desc{
+	 font-size:17px;
+	 font-style: italic;
+	 letter-spacing: 3px;
+	 margin-top:15px;
+
+}
+
+.about-desc{
+	 font-size:15px;
+	 font-style: italic;
+}
+
+.car-about .btn{
+	 padding:15px  20px;
+	 border: 2px solid #52b3d9;
+	 color: #52b3d9;
+	 margin-top:20px;
+}
+.car-about .btn:hover{
+	 background: #52b3d9;
+	 color:#fff;
+	 border-color: #52b3d9;
+}
+
+.car-services{
+	 padding:40px 0;
+	 background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../img/middle-bg.jpeg')center/cover no-repeat fixed; 
+	 color:#fff;
+
+	 text-align:center;
+}
+
+.car-services .fas{
+	 font-size:40px;
+	 margin-bottom: 10px;
+	color: #52b3d9;
+}
+.car-services h3{
+  font-size:20px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.car-brands{
+	 padding: 40px 0;
+}
+
+.car-brands img{
+	 width:90px;
+	 margin-right: 10px;
+}
+
+.car-customers{
+	 padding:100px 0;
+	 background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/customers-bg.jpeg')center/cover fixed no-repeat;
+      color:#fff;
+    text-align:center;
+}
+
+.car-customers .fas{
+	 font-size:40px;
+	 color:#52b3d9;
+	 margin-bottom:20px;
+}
+.car-customers h3{
+	 font-size:20px;
+	 font-weight:bold;
+	 font-style: italic;
+}
+
+.car-customers p{
+	text-transform: uppercase;
+}
+
+.contact{
+	 padding:40px 0;
+
+}
+
+.contact form{
+	 width:600px;
+    margin: 0 auto;
+
+}
+
+.contact input{
+	 height: 60px;
+}
+.contact .btn{
+	 border: 2px solid #52b3d9;
+	 color:#52b3d9;
+	 padding: 10px 40px;
+}
+.contact .btn:hover{
+	 background:#52b3d9;
+	 border-color: #52b3d9;
+	 color:#fff;
+}
+
+footer{
+	 padding:100px 0 ;
+	 background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('../img/lamborghini.jpeg') center/cover fixed no-repeat;
+   margin-top:50px;
+   color:#fff;
+}
+
+footer .footer-info .fas{
+	  font-size:30px;
+	  color:#52b3d9;
+	  margin-bottom: 20px;
+	  margin-right:20px;
+	  border: 1px solid #52b3d9;
+	  padding:10px;
+}
+
+footer .footer-info span{
+	 font-size:20px;
+}
+
+footer p{
+	 font-size:18px;
+}
+
+footer .footer-social h3{
+	  margin-top:40px;
+	  font-size:20px;
+	  margin-bottom:10px;
+}
+
+footer .footer-social i{
+   font-size:30px;
+   margin-right:10px;
+
+}
+
+.fa-facebook{
+   color: #4267B2;
+}
+
+.fa-instagram{
+	 color: #262626;
+}
+.fa-youtube{
+	color:#FF2500;
+}
+
+.fa-twitter{
+	 color:#1DA1F2;
+}
